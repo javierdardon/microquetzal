@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Nexa-Trial';
+  font-weight: 900;
+  src: url('/fonts/Nexa-Trial-Black.ttf')
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url('/fonts/Inter-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url('/fonts/Montserrat-Medium.ttf')
+}
+
+.fr-box {
+    margin-bottom: 1.5rem;
+}
+
+p[data-f-id] {
+    display: none;
+}
+
+.fr-wrapper div {
+    display: none;
+}
+
+div[contenteditable="true"] {
+    display: block;
+}
+
+html { scroll-behavior: smooth; }
